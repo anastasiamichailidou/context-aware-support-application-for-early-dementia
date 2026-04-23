@@ -1,0 +1,221 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="71A6drGZg2-wgD0z8a25" name="Σελίδα-1">
+    <mxGraphModel dx="2088" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" value="&amp;lt;Interface&amp;gt; MedicationObserver" vertex="1">
+          <mxGeometry height="290" width="260" x="220" y="20" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-2" parent="hiZvV4vTBbUucAcKI0Po-1" style="text;strokeColor=#d6b656;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="104" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-3" parent="hiZvV4vTBbUucAcKI0Po-1" style="line;strokeWidth=1;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-4" parent="hiZvV4vTBbUucAcKI0Po-1" style="text;strokeColor=#d6b656;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;+ update(medication: MedicationEntity): void&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&amp;lt;Boundary&amp;gt; PatientMedicationNotificationGUI" vertex="1">
+          <mxGeometry height="318" width="260" x="230" y="440" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-6" parent="hiZvV4vTBbUucAcKI0Po-5" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;-lblMedicationName : Label&lt;/div&gt;&lt;div&gt;-btnConfirm : Button&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-7" parent="hiZvV4vTBbUucAcKI0Po-5" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-8" parent="hiZvV4vTBbUucAcKI0Po-5" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+update(medication: MedicationEntity): void&lt;/div&gt;&lt;div&gt;+displayReminder(medicationName: String): void&lt;/div&gt;&lt;div&gt;+hideReminder(): void&lt;/div&gt;&lt;div&gt;+btnConfirmPress(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="260" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&amp;lt;Boundary&amp;gt; CaregiverMedicationNotificationGUI" vertex="1">
+          <mxGeometry height="320" width="260" x="720" y="440" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-10" parent="hiZvV4vTBbUucAcKI0Po-9" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-lblMessage : Label" vertex="1">
+          <mxGeometry height="104" width="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-11" parent="hiZvV4vTBbUucAcKI0Po-9" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-12" parent="hiZvV4vTBbUucAcKI0Po-9" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+update(medication: MedicationEntity): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+displayNotification(message: String): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+hideNotification() : void&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="146" width="260" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="&amp;lt;Subject&amp;gt; MedicationReminderController" vertex="1">
+          <mxGeometry height="290" width="260" x="720" y="20" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-18" parent="hiZvV4vTBbUucAcKI0Po-17" style="text;strokeColor=#82b366;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot; face=&quot;Helvetica&quot;&gt;- observers: List&amp;lt;MedicationObserver&amp;gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="44" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-19" parent="hiZvV4vTBbUucAcKI0Po-17" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-20" parent="hiZvV4vTBbUucAcKI0Po-17" style="text;strokeColor=#82b366;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+registerObserver(o: MedicationObserver): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+removeObserver(o: MedicationObserver): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+notifyObservers(medication: MedicationEntity): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+sendReminder(medication: MedicationEntity): void&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+confirmIntake(medicationID: Integer): void&lt;/div&gt;&lt;div&gt;+checkMedicationTime(): Boolean&lt;/div&gt;&lt;div&gt;+notifyCaregiver(medicationID: Integer, status: String): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-22" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" value="&amp;lt;Interface&amp;gt; ActivityObserver" vertex="1">
+          <mxGeometry height="290" width="260" x="230" y="1000" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-23" parent="hiZvV4vTBbUucAcKI0Po-22" style="text;strokeColor=#d6b656;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="104" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-24" parent="hiZvV4vTBbUucAcKI0Po-22" style="line;strokeWidth=1;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-25" parent="hiZvV4vTBbUucAcKI0Po-22" style="text;strokeColor=#d6b656;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+update(activity: ActivityEntity): void" vertex="1">
+          <mxGeometry height="130" width="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-26" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="ActivityNotificationGUI &lt;div&gt;&amp;lt;Observer&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="318" width="260" x="230" y="1420" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-27" parent="hiZvV4vTBbUucAcKI0Po-26" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;-lblActivityName : Label&lt;/div&gt;&lt;div&gt;-lblActivityDate : Label&lt;/div&gt;&lt;div&gt;-lblActivityTime : Label&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-28" parent="hiZvV4vTBbUucAcKI0Po-26" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-29" parent="hiZvV4vTBbUucAcKI0Po-26" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+update(activity : ActivityEntity) : void&lt;/div&gt;&lt;div&gt;+displayActivityNotification(activityName : String, activityDate : String, activityTime : String) : void&lt;/div&gt;&lt;div&gt;+dismissActivityNotification(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="260" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-34" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="&amp;lt;Subject&amp;gt; ActivityNotificationController " vertex="1">
+          <mxGeometry height="290" width="260" x="730" y="1000" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-35" parent="hiZvV4vTBbUucAcKI0Po-34" style="text;strokeColor=#82b366;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-observers: List&amp;lt;ActivityObserver&amp;gt;" vertex="1">
+          <mxGeometry height="44" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-36" parent="hiZvV4vTBbUucAcKI0Po-34" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-37" parent="hiZvV4vTBbUucAcKI0Po-34" style="text;strokeColor=#82b366;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+registerObserver(o: ActivityObserver): void&lt;div&gt;+removeObserver(o: ActivityObserver): void&lt;/div&gt;&lt;div&gt;+notifyObservers(activity: ActivityEntity): void&lt;/div&gt;&lt;div&gt;+checkActivityTime(): Boolean&lt;/div&gt;&lt;div&gt;+loadActivityDetails(activityID: Integer): ActivityEntity&lt;/div&gt;&lt;div&gt;+sendActivityNotification(): void&lt;/div&gt;&lt;div&gt;+dismissActivityNotification(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-38" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" value="&amp;lt;Interface&amp;gt; EmergencyObserver" vertex="1">
+          <mxGeometry height="290" width="260" x="1150" y="20" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-39" parent="hiZvV4vTBbUucAcKI0Po-38" style="text;strokeColor=#d6b656;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="104" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-40" parent="hiZvV4vTBbUucAcKI0Po-38" style="line;strokeWidth=1;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-41" parent="hiZvV4vTBbUucAcKI0Po-38" style="text;strokeColor=#d6b656;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+update(request: EmergencyRequestEntity): void" vertex="1">
+          <mxGeometry height="130" width="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-42" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="PatientEmergencyConfirmDialog &lt;div&gt;&amp;lt;Observer&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="318" width="260" x="1160" y="440" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-43" parent="hiZvV4vTBbUucAcKI0Po-42" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-lblConfirmMsg: Label&lt;div&gt;-btnConfirm: Button&lt;/div&gt;&lt;div&gt;-btnCancel: Button&lt;/div&gt;&lt;div&gt;-lblSuccessMsg: Label&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-44" parent="hiZvV4vTBbUucAcKI0Po-42" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-45" parent="hiZvV4vTBbUucAcKI0Po-42" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+update(request: EmergencyRequestEntity): void&lt;/div&gt;&lt;div&gt;+btnConfirmPress(): void&lt;/div&gt;&lt;div&gt;+btnCancelPress(): void&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+showSuccessMsg(): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal leading-[1.7]&quot;&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="260" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-46" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" value="&amp;lt;Subject&amp;gt; EmergencyController " vertex="1">
+          <mxGeometry height="290" width="260" x="1650" y="20" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-47" parent="hiZvV4vTBbUucAcKI0Po-46" style="text;strokeColor=#82b366;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-observers: List&amp;lt;EmergencyObserver&amp;gt;" vertex="1">
+          <mxGeometry height="44" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-48" parent="hiZvV4vTBbUucAcKI0Po-46" style="line;strokeWidth=1;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-49" parent="hiZvV4vTBbUucAcKI0Po-46" style="text;strokeColor=#82b366;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+registerObserver(o: EmergencyObserver): void&lt;div&gt;+removeObserver(o: EmergencyObserver): void&lt;/div&gt;&lt;div&gt;+notifyObservers(request: EmergencyRequestEntity): void&lt;/div&gt;&lt;div&gt;+createEmergencyRequest(userID: Integer): EmergencyRequestEntity&lt;/div&gt;&lt;div&gt;+sendEmergencyNotification(request: EmergencyRequestEntity): void&lt;/div&gt;&lt;div&gt;+cancelEmergencyRequest(): void&lt;/div&gt;&lt;div&gt;+dismissAlert(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-50" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" value="&lt;div&gt;CaregiverEmergencyAlertGUI&lt;/div&gt;&lt;div&gt;&amp;lt;Observer&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="318" width="260" x="1650" y="440" as="geometry">
+            <mxRectangle height="30" width="100" x="110" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-51" parent="hiZvV4vTBbUucAcKI0Po-50" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-lblEmergencyAlertMsg: Label&lt;div&gt;-lblEmergencyTime: Label&lt;/div&gt;&lt;div&gt;-lblPatientName: Label&lt;/div&gt;&lt;div&gt;-btnDismiss: Button&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-52" parent="hiZvV4vTBbUucAcKI0Po-50" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="30" width="260" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-53" parent="hiZvV4vTBbUucAcKI0Po-50" style="text;strokeColor=#6c8ebf;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+update(request: EmergencyRequestEntity): void&lt;/div&gt;&lt;div&gt;+displayAlert(request: EmergencyRequestEntity): void&lt;/div&gt;&lt;div&gt;+btnDismissPress(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="260" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-54" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-26" style="endArrow=open;html=1;rounded=0;entryX=0.498;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;endFill=0;" target="hiZvV4vTBbUucAcKI0Po-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="1450" as="sourcePoint" />
+            <mxPoint x="670" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-56" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-37" style="endArrow=classic;html=1;rounded=0;entryX=1.003;entryY=0.342;entryDx=0;entryDy=0;exitX=0.001;exitY=0.55;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" target="hiZvV4vTBbUucAcKI0Po-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="740" y="1130" as="sourcePoint" />
+            <mxPoint x="500" y="1135.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="notifies" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-59" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-49" style="endArrow=classic;html=1;rounded=0;entryX=0.996;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.572;exitDx=0;exitDy=0;exitPerimeter=0;" target="hiZvV4vTBbUucAcKI0Po-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1640" y="230" as="sourcePoint" />
+            <mxPoint x="1520" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="notifies" vertex="1">
+          <mxGeometry height="30" width="60" x="1510" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-62" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-42" style="endArrow=open;html=1;rounded=0;entryX=0.426;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.39;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;endFill=0;" target="hiZvV4vTBbUucAcKI0Po-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1710" y="380" as="sourcePoint" />
+            <mxPoint x="1470" y="381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-63" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-51" style="endArrow=open;html=1;rounded=0;entryX=0.892;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.096;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;endFill=0;" target="hiZvV4vTBbUucAcKI0Po-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1670" y="390" as="sourcePoint" />
+            <mxPoint x="1430" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-64" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-20" style="endArrow=classic;html=1;rounded=0;entryX=1.002;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.003;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;" target="hiZvV4vTBbUucAcKI0Po-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="770" y="320" as="sourcePoint" />
+            <mxPoint x="530" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="notifies" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-66" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-5" style="endArrow=open;html=1;rounded=0;entryX=0.371;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.33;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;endFill=0;" target="hiZvV4vTBbUucAcKI0Po-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="820" y="370" as="sourcePoint" />
+            <mxPoint x="580" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hiZvV4vTBbUucAcKI0Po-67" edge="1" parent="1" source="hiZvV4vTBbUucAcKI0Po-10" style="endArrow=open;html=1;rounded=0;entryX=0.901;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.015;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;endFill=0;" target="hiZvV4vTBbUucAcKI0Po-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="370" as="sourcePoint" />
+            <mxPoint x="650" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

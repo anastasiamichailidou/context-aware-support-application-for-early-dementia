@@ -1,0 +1,225 @@
+<mxfile host="app.diagrams.net" agent="OpenAI">
+  <diagram id="seq1" name="Sequence Diagram 1">
+    <mxGraphModel dx="2802" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-13" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1393.75" y="790" as="sourcePoint" />
+            <mxPoint x="1393.75" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-12" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1123.75" y="790" as="sourcePoint" />
+            <mxPoint x="1123.75" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="828.75" y="790" as="sourcePoint" />
+            <mxPoint x="828.75" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-10" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="790" as="sourcePoint" />
+            <mxPoint x="530" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-9" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="253.75" y="790" as="sourcePoint" />
+            <mxPoint x="253.75" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p_home" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="patientHomePageGUI" vertex="1">
+          <mxGeometry height="44" width="170" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p_confirm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PatientEmergency&#xa;ConfirmDialog" vertex="1">
+          <mxGeometry height="44" width="170" x="445.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p_ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="EmergencyController" vertex="1">
+          <mxGeometry height="44" width="175" x="743" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p_entity" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="EmergencyRequestEntity" vertex="1">
+          <mxGeometry height="44" width="180" x="1035" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p_db" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="EmergencyDBProxy" vertex="1">
+          <mxGeometry height="44" width="170" x="1310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="patient" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Patient" vertex="1">
+          <mxGeometry height="65" width="40" x="40" y="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_patient" parent="1" style="shape=line;html=1;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="520" width="1" x="64" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_home" parent="1" style="shape=line;html=1;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="550" width="1" x="255" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_confirm" parent="1" style="shape=line;html=1;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="550" width="1" x="530" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_ctrl" parent="1" style="shape=line;html=1;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="550" width="1" x="830" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_entity" parent="1" style="shape=line;html=1;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="550" width="1" x="1125" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_db" parent="1" style="shape=line;html=1;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="550" width="1" x="1395" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="a_home" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="510" width="14" x="248" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a_confirm" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="550" width="14" x="523" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a_ctrl1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="520" width="14" x="823" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a_entity" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="520" width="14" x="1118" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="a_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="520" width="14" x="1388" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="btnEmergencyPress()">
+          <mxGeometry relative="1" x="-0.2" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="60" y="195" as="sourcePoint" />
+            <mxPoint x="248" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="PatientEmergencyConfirmDialog()">
+          <mxGeometry relative="1" x="-0.249" y="15" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="262" y="225" as="sourcePoint" />
+            <mxPoint x="523" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="dashed=1;endArrow=classic;html=1;rounded=0;endFill=1;" value="display confirm dialog">
+          <mxGeometry relative="1" x="0.6835" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="523" y="260" as="sourcePoint" />
+            <mxPoint x="60" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lab_confirm" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;[Confirmed]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="120" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="divline" parent="1" style="shape=line;strokeWidth=1;html=1;dashed=1;dashPattern=8 8;strokeColor=#0000FF;" value="" vertex="1">
+          <mxGeometry height="1" width="1450" x="30" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="createEmergencyRequest(userID)">
+          <mxGeometry relative="1" x="-0.2098" y="9" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="537" y="380" as="sourcePoint" />
+            <mxPoint x="823" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="EmergencyRequestEntity()">
+          <mxGeometry relative="1" x="-0.3381" y="15" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="837" y="409.5" as="sourcePoint" />
+            <mxPoint x="1118" y="409.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" style="dashed=1;endArrow=classic;html=1;rounded=0;endFill=1;" value="request created">
+          <mxGeometry relative="1" x="0.4093" y="-10" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <mxPoint x="1118" y="450" as="sourcePoint" />
+            <mxPoint x="837" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="saveEmergencyRequest(request)">
+          <mxGeometry relative="1" x="-0.6624" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="837" y="490" as="sourcePoint" />
+            <mxPoint x="1388" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="dashed=1;endArrow=classic;html=1;rounded=0;endFill=1;" value="[saved request]">
+          <mxGeometry relative="1" x="0.6987" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1388" y="530" as="sourcePoint" />
+            <mxPoint x="837" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="showSuccessMsg()">
+          <mxGeometry relative="1" x="0.3497" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="823" y="550" as="sourcePoint" />
+            <mxPoint x="537" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" style="dashed=1;endArrow=classic;html=1;rounded=0;endFill=1;" value="display emergency request sent successfully">
+          <mxGeometry relative="1" x="0.4637" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="523" y="580" as="sourcePoint" />
+            <mxPoint x="60" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="btnCancelPress()">
+          <mxGeometry relative="1" x="-0.7275" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="60" y="650" as="sourcePoint" />
+            <mxPoint x="520" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;" value="cancelEmergencyRequest()">
+          <mxGeometry relative="1" x="-0.3497" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="537" y="680" as="sourcePoint" />
+            <mxPoint x="823" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" style="dashed=1;endArrow=classic;html=1;rounded=0;endFill=1;" value="close confirm dialog&amp;nbsp;">
+          <mxGeometry relative="1" x="0.6835" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="519" y="710" as="sourcePoint" />
+            <mxPoint x="64" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 255);&quot;&gt;[cancelled]&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="800" as="sourcePoint" />
+            <mxPoint x="60" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-8" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=80;height=30;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;alt&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="460" width="1460" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="oNPIaFRAqqvN2IAyW2B_-8" style="endArrow=block;html=1;rounded=0;" value="btnConfirmPress()">
+          <mxGeometry relative="1" x="-0.6396" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="40" y="60" as="sourcePoint" />
+            <mxPoint x="503" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="patientHomePageGUI" vertex="1">
+          <mxGeometry height="44" width="170" x="170" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PatientEmergency&#xa;ConfirmDialog" vertex="1">
+          <mxGeometry height="44" width="170" x="445.5" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="EmergencyController" vertex="1">
+          <mxGeometry height="44" width="175" x="743" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="EmergencyRequestEntity" vertex="1">
+          <mxGeometry height="44" width="180" x="1035" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="EmergencyDBProxy" vertex="1">
+          <mxGeometry height="44" width="170" x="1310" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="oNPIaFRAqqvN2IAyW2B_-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Patient" vertex="1">
+          <mxGeometry height="65" width="40" x="40" y="820" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
