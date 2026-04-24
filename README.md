@@ -4,4 +4,7 @@ The system includes secure authentication with email and password, supporting tw
 
 From an architectural perspective, the application follows the Boundary–Control–Entity (BCE) pattern, ensuring a clear separation of concerns between user interface components, control logic, and data entities. This supports modularity, maintainability, and scalability of the system.
 
+The application prototype was designed in Figma:
+https://your-figma-link
+
 The project was developed as part of a Software Engineering course at the Aristotle University of Thessaloniki, Department of Electrical and Computer Engineering.
